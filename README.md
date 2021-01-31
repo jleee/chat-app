@@ -20,6 +20,7 @@ View the application at [https://slack.jeffreylee.dev/](https://slack.jeffreylee
 - Profanity filter applied to all messages
 - User authentication
 - Create new channels
+- Delete channels
 - Change app theme colour (default, light, dark)
 
 ## Firebase Setup
