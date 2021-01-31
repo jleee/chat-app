@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "slack-clone-ae5de",
+    "prod": "slack-clone-prod-ae078"
+  }
+}

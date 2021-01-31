@@ -1,0 +1,38 @@
+{
+  "extends": ["eslint:recommended", "airbnb", "airbnb/hooks", "prettier", "prettier/react"],
+  "plugins": ["react", "react-hooks", "prettier"],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "document": true,
+    "window": true,
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "localStorage": true
+  },
+  "rules": {
+    "prettier/prettier": ["warn", {}, { "usePrettierrc": true }],
+    "no-shadow": ["error", { "builtinGlobals": false, "hoist": "functions", "allow": [] }],
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "no-dupe-keys": "off",
+    "prefer-destructuring": "warn",
+    "react/no-array-index-key": "warn",
+    "react/prop-types": "warn",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
+    "jsx-a11y/anchor-is-valid": [
+      "warn",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"]
+      }
+    ]
+  }
+}
